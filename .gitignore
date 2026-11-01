@@ -1,0 +1,5 @@
+bin/
+*.test
+.DS_Store
+NOTES.md
+data/
