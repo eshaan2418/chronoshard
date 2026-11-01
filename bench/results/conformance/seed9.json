@@ -1,0 +1,1422 @@
+{
+  "comparisons": 235,
+  "identical": 235,
+  "minutes": 50,
+  "queries": 47,
+  "queries_identical": 47,
+  "results": [
+    {
+      "query": "up",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "up",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "up",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "up",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "up",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "http_requests_total",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "http_requests_total",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "http_requests_total",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "http_requests_total",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "http_requests_total",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "http_requests_total{job=\"api\"}",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "http_requests_total{job=\"api\"}",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "http_requests_total{job=\"api\"}",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "http_requests_total{job=\"api\"}",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "http_requests_total{job=\"api\"}",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "http_requests_total{code=~\"5..\"}",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "http_requests_total{code=~\"5..\"}",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "http_requests_total{code=~\"5..\"}",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "http_requests_total{code=~\"5..\"}",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "http_requests_total{code=~\"5..\"}",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "http_requests_total{code!~\"2..\",job!=\"db\"}",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "http_requests_total{code!~\"2..\",job!=\"db\"}",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "http_requests_total{code!~\"2..\",job!=\"db\"}",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "http_requests_total{code!~\"2..\",job!=\"db\"}",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "http_requests_total{code!~\"2..\",job!=\"db\"}",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "rate(http_requests_total[1m])",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "rate(http_requests_total[1m])",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "rate(http_requests_total[1m])",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "rate(http_requests_total[1m])",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "rate(http_requests_total[1m])",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "rate(http_requests_total[5m])",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "rate(http_requests_total[5m])",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "rate(http_requests_total[5m])",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "rate(http_requests_total[5m])",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "rate(http_requests_total[5m])",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "irate(http_requests_total[5m])",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "irate(http_requests_total[5m])",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "irate(http_requests_total[5m])",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "irate(http_requests_total[5m])",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "irate(http_requests_total[5m])",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "increase(http_requests_total[10m])",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "increase(http_requests_total[10m])",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "increase(http_requests_total[10m])",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "increase(http_requests_total[10m])",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "increase(http_requests_total[10m])",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "delta(temperature_celsius[10m])",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "delta(temperature_celsius[10m])",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "delta(temperature_celsius[10m])",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "delta(temperature_celsius[10m])",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "delta(temperature_celsius[10m])",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "sum(rate(http_requests_total[5m]))",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "sum(rate(http_requests_total[5m]))",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "sum(rate(http_requests_total[5m]))",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "sum(rate(http_requests_total[5m]))",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "sum(rate(http_requests_total[5m]))",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "sum by (job) (rate(http_requests_total[5m]))",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "sum by (job) (rate(http_requests_total[5m]))",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "sum by (job) (rate(http_requests_total[5m]))",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "sum by (job) (rate(http_requests_total[5m]))",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "sum by (job) (rate(http_requests_total[5m]))",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "sum without (instance) (rate(http_requests_total[5m]))",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "sum without (instance) (rate(http_requests_total[5m]))",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "sum without (instance) (rate(http_requests_total[5m]))",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "sum without (instance) (rate(http_requests_total[5m]))",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "sum without (instance) (rate(http_requests_total[5m]))",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "avg by (job) (temperature_celsius)",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "avg by (job) (temperature_celsius)",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "avg by (job) (temperature_celsius)",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "avg by (job) (temperature_celsius)",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "avg by (job) (temperature_celsius)",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "max by (code) (http_requests_total)",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "max by (code) (http_requests_total)",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "max by (code) (http_requests_total)",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "max by (code) (http_requests_total)",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "max by (code) (http_requests_total)",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "min without (job, instance) (temperature_celsius)",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "min without (job, instance) (temperature_celsius)",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "min without (job, instance) (temperature_celsius)",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "min without (job, instance) (temperature_celsius)",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "min without (job, instance) (temperature_celsius)",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "count by (job) (up)",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "count by (job) (up)",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "count by (job) (up)",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "count by (job) (up)",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "count by (job) (up)",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "topk(3, temperature_celsius)",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "topk(3, temperature_celsius)",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "topk(3, temperature_celsius)",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "topk(3, temperature_celsius)",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "topk(3, temperature_celsius)",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "bottomk(2, rate(http_requests_total[5m]))",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "bottomk(2, rate(http_requests_total[5m]))",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "bottomk(2, rate(http_requests_total[5m]))",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "bottomk(2, rate(http_requests_total[5m]))",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "bottomk(2, rate(http_requests_total[5m]))",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "temperature_celsius \u003e 25",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "temperature_celsius \u003e 25",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "temperature_celsius \u003e 25",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "temperature_celsius \u003e 25",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "temperature_celsius \u003e 25",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "temperature_celsius \u003e bool 25",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "temperature_celsius \u003e bool 25",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "temperature_celsius \u003e bool 25",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "temperature_celsius \u003e bool 25",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "temperature_celsius \u003e bool 25",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "temperature_celsius * 9 / 5 + 32",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "temperature_celsius * 9 / 5 + 32",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "temperature_celsius * 9 / 5 + 32",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "temperature_celsius * 9 / 5 + 32",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "temperature_celsius * 9 / 5 + 32",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "2 ^ 3 * -temperature_celsius",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "2 ^ 3 * -temperature_celsius",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "2 ^ 3 * -temperature_celsius",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "2 ^ 3 * -temperature_celsius",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "2 ^ 3 * -temperature_celsius",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "rate(http_requests_total{code=\"500\"}[5m]) / ignoring(code) rate(http_requests_total{code=\"200\"}[5m])",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "rate(http_requests_total{code=\"500\"}[5m]) / ignoring(code) rate(http_requests_total{code=\"200\"}[5m])",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "rate(http_requests_total{code=\"500\"}[5m]) / ignoring(code) rate(http_requests_total{code=\"200\"}[5m])",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "rate(http_requests_total{code=\"500\"}[5m]) / ignoring(code) rate(http_requests_total{code=\"200\"}[5m])",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "rate(http_requests_total{code=\"500\"}[5m]) / ignoring(code) rate(http_requests_total{code=\"200\"}[5m])",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "sum by (job, instance) (rate(http_requests_total[5m])) / on(job, instance) group_free_mem_bytes",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "sum by (job, instance) (rate(http_requests_total[5m])) / on(job, instance) group_free_mem_bytes",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "sum by (job, instance) (rate(http_requests_total[5m])) / on(job, instance) group_free_mem_bytes",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "sum by (job, instance) (rate(http_requests_total[5m])) / on(job, instance) group_free_mem_bytes",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "sum by (job, instance) (rate(http_requests_total[5m])) / on(job, instance) group_free_mem_bytes",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "http_requests_total offset 5m",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "http_requests_total offset 5m",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "http_requests_total offset 5m",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "http_requests_total offset 5m",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "http_requests_total offset 5m",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "rate(http_requests_total[5m] offset 10m)",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "rate(http_requests_total[5m] offset 10m)",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "rate(http_requests_total[5m] offset 10m)",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "rate(http_requests_total[5m] offset 10m)",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "rate(http_requests_total[5m] offset 10m)",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "avg_over_time(temperature_celsius[10m])",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "avg_over_time(temperature_celsius[10m])",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "avg_over_time(temperature_celsius[10m])",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "avg_over_time(temperature_celsius[10m])",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "avg_over_time(temperature_celsius[10m])",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "max_over_time(temperature_celsius[5m])",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "max_over_time(temperature_celsius[5m])",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "max_over_time(temperature_celsius[5m])",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "max_over_time(temperature_celsius[5m])",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "max_over_time(temperature_celsius[5m])",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "min_over_time(temperature_celsius[5m])",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "min_over_time(temperature_celsius[5m])",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "min_over_time(temperature_celsius[5m])",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "min_over_time(temperature_celsius[5m])",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "min_over_time(temperature_celsius[5m])",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "sum_over_time(temperature_celsius[3m])",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "sum_over_time(temperature_celsius[3m])",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "sum_over_time(temperature_celsius[3m])",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "sum_over_time(temperature_celsius[3m])",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "sum_over_time(temperature_celsius[3m])",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "count_over_time(temperature_celsius[5m])",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "count_over_time(temperature_celsius[5m])",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "count_over_time(temperature_celsius[5m])",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "count_over_time(temperature_celsius[5m])",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "count_over_time(temperature_celsius[5m])",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "last_over_time(temperature_celsius[5m])",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "last_over_time(temperature_celsius[5m])",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "last_over_time(temperature_celsius[5m])",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "last_over_time(temperature_celsius[5m])",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "last_over_time(temperature_celsius[5m])",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "clamp_min(temperature_celsius, 20)",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "clamp_min(temperature_celsius, 20)",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "clamp_min(temperature_celsius, 20)",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "clamp_min(temperature_celsius, 20)",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "clamp_min(temperature_celsius, 20)",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "clamp_max(temperature_celsius, 22)",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "clamp_max(temperature_celsius, 22)",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "clamp_max(temperature_celsius, 22)",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "clamp_max(temperature_celsius, 22)",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "clamp_max(temperature_celsius, 22)",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "round(temperature_celsius, 0.5)",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "round(temperature_celsius, 0.5)",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "round(temperature_celsius, 0.5)",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "round(temperature_celsius, 0.5)",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "round(temperature_celsius, 0.5)",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "abs(delta(temperature_celsius[5m]))",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "abs(delta(temperature_celsius[5m]))",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "abs(delta(temperature_celsius[5m]))",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "abs(delta(temperature_celsius[5m]))",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "abs(delta(temperature_celsius[5m]))",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "up == 1 and on(instance) temperature_celsius \u003e 20",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "up == 1 and on(instance) temperature_celsius \u003e 20",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "up == 1 and on(instance) temperature_celsius \u003e 20",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "up == 1 and on(instance) temperature_celsius \u003e 20",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "up == 1 and on(instance) temperature_celsius \u003e 20",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "up or vector(0)",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "up or vector(0)",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "up or vector(0)",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "up or vector(0)",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "up or vector(0)",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "http_requests_total unless http_requests_total{code=\"500\"}",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "http_requests_total unless http_requests_total{code=\"500\"}",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "http_requests_total unless http_requests_total{code=\"500\"}",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "http_requests_total unless http_requests_total{code=\"500\"}",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "http_requests_total unless http_requests_total{code=\"500\"}",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "time()",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "time()",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "time()",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "time()",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "time()",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "scalar(sum(up)) * 2",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "scalar(sum(up)) * 2",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "scalar(sum(up)) * 2",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "scalar(sum(up)) * 2",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "scalar(sum(up)) * 2",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "sum(rate(http_requests_total[5m])) by (code) \u003e bool 0.5",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "sum(rate(http_requests_total[5m])) by (code) \u003e bool 0.5",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "sum(rate(http_requests_total[5m])) by (code) \u003e bool 0.5",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "sum(rate(http_requests_total[5m])) by (code) \u003e bool 0.5",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "sum(rate(http_requests_total[5m])) by (code) \u003e bool 0.5",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "count(count by (job) (http_requests_total))",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "count(count by (job) (http_requests_total))",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "count(count by (job) (http_requests_total))",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "count(count by (job) (http_requests_total))",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "count(count by (job) (http_requests_total))",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "sum by (job) (increase(http_requests_total[15m])) / sum by (job) (count_over_time(up[15m]))",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "sum by (job) (increase(http_requests_total[15m])) / sum by (job) (count_over_time(up[15m]))",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "sum by (job) (increase(http_requests_total[15m])) / sum by (job) (count_over_time(up[15m]))",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "sum by (job) (increase(http_requests_total[15m])) / sum by (job) (count_over_time(up[15m]))",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "sum by (job) (increase(http_requests_total[15m])) / sum by (job) (count_over_time(up[15m]))",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "churn_gauge",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "churn_gauge",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "churn_gauge",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "churn_gauge",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "churn_gauge",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    },
+    {
+      "query": "rate(churn_counter[5m])",
+      "kind": "instant",
+      "at": "1793567845000",
+      "passed": true
+    },
+    {
+      "query": "rate(churn_counter[5m])",
+      "kind": "instant",
+      "at": "1793567421500",
+      "passed": true
+    },
+    {
+      "query": "rate(churn_counter[5m])",
+      "kind": "instant",
+      "at": "1793566454000",
+      "passed": true
+    },
+    {
+      "query": "rate(churn_counter[5m])",
+      "kind": "instant",
+      "at": "1793565385000",
+      "passed": true
+    },
+    {
+      "query": "rate(churn_counter[5m])",
+      "kind": "range",
+      "at": "30s",
+      "passed": true
+    }
+  ],
+  "samples": 5184,
+  "seed": 9,
+  "series": 36
+}

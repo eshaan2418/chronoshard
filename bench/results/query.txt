@@ -1,0 +1,11 @@
+raw selector, 1 series         instant            prometheus     0.32 ms  chronoshard     0.20 ms  (1 series)
+raw selector, 1 series         range 1h step 30s  prometheus     0.34 ms  chronoshard     0.28 ms  (1 series)
+sum(rate) over all counters    instant            prometheus     2.63 ms  chronoshard     5.59 ms  (1 series)
+sum(rate) over all counters    range 1h step 30s  prometheus    15.13 ms  chronoshard    19.16 ms  (1 series)
+sum by job (rate)              instant            prometheus     2.60 ms  chronoshard     5.88 ms  (35 series)
+sum by job (rate)              range 1h step 30s  prometheus    16.56 ms  chronoshard    25.28 ms  (35 series)
+topk(5, avg_over_time)         instant            prometheus     1.44 ms  chronoshard     2.86 ms  (5 series)
+topk(5, avg_over_time)         range 1h step 30s  prometheus    10.00 ms  chronoshard     9.29 ms  (11 series)
+regex selector + max           instant            prometheus     0.34 ms  chronoshard     0.64 ms  (1 series)
+regex selector + max           range 1h step 30s  prometheus     0.87 ms  chronoshard     1.77 ms  (1 series)
+rss_kb prometheus=107904 chronoshard=47824

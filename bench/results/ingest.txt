@@ -1,0 +1,3 @@
+# 2026-11-01 16:14 Apple M5 Pro go1.27.3 prometheus 3.15.1 GOMAXPROCS=9
+memory     18004535 samples/s (median of 5), 5.464 bytes/sample
+wal        16932541 samples/s (median of 5), 5.464 bytes/sample

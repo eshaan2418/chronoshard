@@ -1,0 +1,87 @@
+{
+  "reps": 20,
+  "rows": [
+    {
+      "name": "raw selector, 1 series",
+      "query": "node_memory_free_ratio{series=\"7\"}",
+      "prometheus_median_ms": 0.319,
+      "chronoshard_median_ms": 0.1995,
+      "result_series": 1,
+      "kind": "instant"
+    },
+    {
+      "name": "raw selector, 1 series",
+      "query": "node_memory_free_ratio{series=\"7\"}",
+      "prometheus_median_ms": 0.3395,
+      "chronoshard_median_ms": 0.28300000000000003,
+      "result_series": 1,
+      "kind": "range 1h step 30s"
+    },
+    {
+      "name": "sum(rate) over all counters",
+      "query": "sum(rate(node_cpu_seconds_total[5m]))",
+      "prometheus_median_ms": 2.6275,
+      "chronoshard_median_ms": 5.593500000000001,
+      "result_series": 1,
+      "kind": "instant"
+    },
+    {
+      "name": "sum(rate) over all counters",
+      "query": "sum(rate(node_cpu_seconds_total[5m]))",
+      "prometheus_median_ms": 15.1335,
+      "chronoshard_median_ms": 19.1565,
+      "result_series": 1,
+      "kind": "range 1h step 30s"
+    },
+    {
+      "name": "sum by job (rate)",
+      "query": "sum by (job) (rate(node_cpu_seconds_total[5m]))",
+      "prometheus_median_ms": 2.6025,
+      "chronoshard_median_ms": 5.879,
+      "result_series": 35,
+      "kind": "instant"
+    },
+    {
+      "name": "sum by job (rate)",
+      "query": "sum by (job) (rate(node_cpu_seconds_total[5m]))",
+      "prometheus_median_ms": 16.5565,
+      "chronoshard_median_ms": 25.2795,
+      "result_series": 35,
+      "kind": "range 1h step 30s"
+    },
+    {
+      "name": "topk(5, avg_over_time)",
+      "query": "topk(5, avg_over_time(node_memory_free_ratio[10m]))",
+      "prometheus_median_ms": 1.4369999999999998,
+      "chronoshard_median_ms": 2.8585000000000003,
+      "result_series": 5,
+      "kind": "instant"
+    },
+    {
+      "name": "topk(5, avg_over_time)",
+      "query": "topk(5, avg_over_time(node_memory_free_ratio[10m]))",
+      "prometheus_median_ms": 9.997499999999999,
+      "chronoshard_median_ms": 9.288,
+      "result_series": 11,
+      "kind": "range 1h step 30s"
+    },
+    {
+      "name": "regex selector + max",
+      "query": "max(node_memory_free_ratio{job=~\"job1.*\"})",
+      "prometheus_median_ms": 0.34299999999999997,
+      "chronoshard_median_ms": 0.6385000000000001,
+      "result_series": 1,
+      "kind": "instant"
+    },
+    {
+      "name": "regex selector + max",
+      "query": "max(node_memory_free_ratio{job=~\"job1.*\"})",
+      "prometheus_median_ms": 0.866,
+      "chronoshard_median_ms": 1.7705,
+      "result_series": 1,
+      "kind": "range 1h step 30s"
+    }
+  ],
+  "samples_per_series": 240,
+  "series": 2000
+}

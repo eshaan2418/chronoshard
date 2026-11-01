@@ -1,0 +1,11 @@
+     1	235/235 comparisons identical (47/47 queries fully identical), 36 series, 5147 samples pushed
+     2	235/235 comparisons identical (47/47 queries fully identical), 36 series, 5089 samples pushed
+     3	235/235 comparisons identical (47/47 queries fully identical), 36 series, 5114 samples pushed
+     4	235/235 comparisons identical (47/47 queries fully identical), 36 series, 4943 samples pushed
+     5	235/235 comparisons identical (47/47 queries fully identical), 36 series, 5275 samples pushed
+     6	235/235 comparisons identical (47/47 queries fully identical), 36 series, 5078 samples pushed
+     7	235/235 comparisons identical (47/47 queries fully identical), 36 series, 5128 samples pushed
+     8	235/235 comparisons identical (47/47 queries fully identical), 36 series, 5097 samples pushed
+     9	235/235 comparisons identical (47/47 queries fully identical), 36 series, 5184 samples pushed
+    10	235/235 comparisons identical (47/47 queries fully identical), 36 series, 4984 samples pushed
+prometheus 3.15.1
