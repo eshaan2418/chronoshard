@@ -9,7 +9,9 @@ TMP=$(mktemp -d)
 cleanup() {
   [ -n "${PROM_PID:-}" ] && kill "$PROM_PID" 2>/dev/null || true
   [ -n "${CS_PID:-}" ] && kill "$CS_PID" 2>/dev/null || true
-  rm -rf "$TMP"
+  # chronoshard writes a final checkpoint on SIGTERM: let both exit first.
+  wait 2>/dev/null || true
+  rm -rf "$TMP" || true
 }
 trap cleanup EXIT
 go build -o "$TMP/chronoshard" ./cmd/chronoshard
